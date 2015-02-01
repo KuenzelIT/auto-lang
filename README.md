@@ -1,1 +1,1 @@
-# auto-lang
+# AutoLang
