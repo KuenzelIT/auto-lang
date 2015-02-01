@@ -1,0 +1,23 @@
+{
+    "name": "kuenzelit/auto-lang",
+    "description": "A package to automatically detect and set the locale in a laravel application",
+    "authors": [
+        {
+            "name": "KuenzelIT",
+            "email": "coding@kuenzelit.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Kuenzelit\\AutoLang\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
