@@ -41,11 +41,13 @@ The `AutoLang`-Facade provides 4 methods: `set`, `get`, `availableLanguages` and
  */
 public function set($lang)
 
+
 /**
  * Returns the current language.
  * @return mixed
  */
 public function get()
+
 
 /**
  * Returns the array of available languages. Can be set in the packages config.php.
@@ -53,6 +55,7 @@ public function get()
  * @return array
  */
 public function availableLanguages()
+
 
 /**
  * Returns the language of the users browser.
