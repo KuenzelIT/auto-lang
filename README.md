@@ -28,6 +28,12 @@ If you like, you can register an alias by putting this line in your `aliases` ar
 'AutoLang' => 'Kuenzelit\AutoLang\Facades\AutoLang',
 ~~~
 
+## Configuration
+You may use artisan to publish the configuration file and edit it to specify the languages you're offering:
+~~~
+php artisan config:publish kuenzelit/auto-lang
+~~~
+
 
 ## Interface
 The `AutoLang`-Facade provides 4 methods: `set`, `get`, `availableLanguages` and `detectLanguage`:
