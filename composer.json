@@ -1,6 +1,7 @@
 {
     "name": "kuenzelit/auto-lang",
     "description": "A package to automatically detect and set the locale in a laravel application",
+	"license": "MIT",
     "authors": [
         {
             "name": "KuenzelIT",
