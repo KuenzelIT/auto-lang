@@ -1,7 +1,7 @@
 # AutoLang
 AutoLang is a small package for Laravel applications which automatically detects the users browser language and sets this language with the `App::setLocale()` command. 
 
-It uses `Session` to temporarily save the language, so it doesn't need to detect the language on every request. Furthermore you can set tell AutoLang which language to use, e.g. if a user wants to use another language than the browser has set.
+It uses `Session` to temporarily save the language, so it doesn't need to detect the language on every request. Furthermore you can tell AutoLang which language to use, e.g. if a user wants to switch to another language than the browser has set.
 
 ## Installation
 #### Get the package
